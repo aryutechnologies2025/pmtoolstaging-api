@@ -3,7 +3,7 @@ name: 🚀 Deploy Laravel Staging Backend
 on:
   push:
     branches:
-      - staging
+      - main
 
 jobs:
   deploy:
