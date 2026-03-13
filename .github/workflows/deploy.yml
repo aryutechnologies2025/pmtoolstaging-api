@@ -18,7 +18,7 @@ jobs:
           password: ${{ secrets.SERVER_PASSWORD }}
           port: 65002
           script: |
-            cd /home/u925800196/public_html/pmtoolstaging-api
+            cd /home/u925800196/domains/medicsresearch.com/public_html/pmtoolstaging-api
 
             echo "Pull latest code"
             git pull origin staging
